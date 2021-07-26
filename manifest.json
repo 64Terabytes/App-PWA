@@ -1,6 +1,6 @@
 {
-  "name": "SCAC APP",
-  "short_name": "SCACSTUDENT",
+  "name": "SCAC STUDENT",
+  "short_name": "STUDENT",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#fdfdfd",

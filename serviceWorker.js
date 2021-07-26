@@ -1,4 +1,4 @@
-const staticDevCoffee = "dev-coffee-site-v1";
+const staticSCACAPP = "scac-student-app";
 const assets = [
   "/",
   "/index.html",
@@ -8,7 +8,7 @@ const assets = [
 
 self.addEventListener("install", installEvent => {
   installEvent.waitUntil(
-    caches.open(staticDevCoffee).then(cache => {
+    caches.open(staticSCACAPP).then(cache => {
       cache.addAll(assets);
     })
   );

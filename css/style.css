@@ -36,6 +36,9 @@ h1 {
   color: #6f981e;
   margin-bottom: 0.5rem;
 }
+h2 {
+  font-family: "Lato", sans-serif;
+}
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));

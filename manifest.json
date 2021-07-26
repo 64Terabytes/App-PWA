@@ -1,6 +1,6 @@
 {
-  "name": "SCAC STUDENT",
-  "short_name": "STUDENT",
+  "name": "SCAC Student",
+  "short_name": "Student",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#fdfdfd",

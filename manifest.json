@@ -1,6 +1,6 @@
 {
-  "name": "Dev'Coffee",
-  "short_name": "DevCoffee",
+  "name": "SCAC APP",
+  "short_name": "SCACSTUDENT",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#fdfdfd",

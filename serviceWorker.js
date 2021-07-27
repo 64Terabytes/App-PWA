@@ -1,3 +1,4 @@
+/*
 const staticSCACAPP = "scac-student-app";
 const assets = [
   "/",
@@ -13,6 +14,7 @@ self.addEventListener("install", installEvent => {
     })
   );
 });
+*/
 
 self.addEventListener("fetch", fetchEvent => {
   fetchEvent.respondWith(

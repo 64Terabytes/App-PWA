@@ -49,7 +49,7 @@
             <div>
               <label for="year-level">Year Level:</label>
               <select name="select-year-level" id="year-level">
-                  <option value="">Pick an option</option>
+                  <option selected disabled>Pick an option</option>
                   <option value="year7">Year 7</option>
                   <option value="year8">Year 8</option>
                   <option value="year9">Year 9</option>
@@ -57,13 +57,13 @@
             </select>
             </div>
             <div>
-              <button>Week A</button>
-              <button>Week B</button>
+              <button onclick="ChangeTimeTableA()">Week A</button>
+              <button onclick="ChangeTimeTableB()">Week B</button>
             </div>
           </div>
       </div>
       <div>
-        <h3>Placeholder</h3>
+        <img id="TimeTableImage">
       </div>
     </main>
     <script src="js/app.js"></script>
